@@ -4,7 +4,7 @@ function getRandomValue(array) {
 
 function doSomeHeavyTask() {
     const ms = getRandomValue([100, 150, 200, 300, 500, 600, 1000, 1400, 1500]);
-    const shouldThrowError = getRandomValue([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) === 1;
+    const shouldThrowError = getRandomValue([1, 2, 3, 4, 5, 6, 7, 8, 10]) === 1;
 
     if (shouldThrowError) {
         const randomError = getRandomValue([
