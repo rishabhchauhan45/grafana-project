@@ -15,7 +15,7 @@ function doSomeHeavyTask() {
         ]);
 
         throw new Error(randomError);
-    }
+    };
 
     return new Promise((resolve) => {
         setTimeout(() => resolve(ms), ms);
@@ -25,3 +25,4 @@ function doSomeHeavyTask() {
 module.exports = {
     doSomeHeavyTask,
 };
+// ....
